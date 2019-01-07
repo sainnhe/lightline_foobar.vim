@@ -1,15 +1,14 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:soft_green = [ '#eceafa', 236 ]
-let s:soft_green_beta = [ '#eceafa', 236 ]
-let s:soft_blue = [ '#eceafa', 236 ]
-let s:soft_pink = [ '#eceafa', 236 ]
-let s:soft_red = [ '#eceafa', 236 ]
-let s:soft_yellow = [ '#eceafa', 236 ]
-let s:soft_light = [ '#eceafa', 236 ]
-let s:soft_dark = [ '#eceafa', 236 ]
-let s:darker_bg = [ '#eceafa', 236 ]
-let s:dark_bg = [ '#eceafa', 236 ]
+let s:soft_green = ['#98C379', 142]
+let s:soft_green_beta = ['#83a598', 108]
+let s:soft_blue = ['#799cc3', 109]
+let s:soft_purple = ['#C678DD', 175]
+let s:soft_red = ['#fb4934', 167]
+let s:soft_yellow = ['#fabd2f', 214]
+let s:soft_light = ['#d2d2d2', 229]
+let s:soft_dark = ['#404040', 243]
+let s:darker_bg = ['#606060', 245]
 
 "{{{
 let s:normal_l1_fg = s:soft_dark
@@ -31,11 +30,11 @@ let s:insert_r2_fg = s:soft_light
 let s:insert_r2_bg = s:darker_bg
 
 let s:visual_l1_fg = s:soft_dark
-let s:visual_l1_bg = s:soft_pink
+let s:visual_l1_bg = s:soft_purple
 let s:visual_l2_fg = s:soft_light
 let s:visual_l2_bg = s:darker_bg
 let s:visual_r1_fg = s:soft_dark
-let s:visual_r1_bg = s:soft_pink
+let s:visual_r1_bg = s:soft_purple
 let s:visual_r2_fg = s:soft_light
 let s:visual_r2_bg = s:darker_bg
 
@@ -95,4 +94,4 @@ let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
 let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
 "}}}
 
-let g:lightline#colorscheme#deus_beta#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#foobar#palette = lightline#colorscheme#flatten(s:p)
