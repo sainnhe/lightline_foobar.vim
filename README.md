@@ -1,8 +1,12 @@
 # Demo
 
-![with neodark](screenshot/neodark.png)
+![](screenshot/neodark.png)
+
+*combined with [neodark](https://github.com/KeitaNakamura/neodark.vim)*
 
 ![with seoul256](screenshot/seoul256.png)
+
+*combined with [seoul256](https://github.com/junegunn/seoul256.vim)*
 
 # Installation
 
