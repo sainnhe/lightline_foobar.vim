@@ -8,7 +8,7 @@ let s:soft_red = ['#fb4934', 167]
 let s:soft_yellow = ['#fabd2f', 214]
 let s:soft_light = ['#d2d2d2', 229]
 let s:soft_dark = ['#404040', 243]
-let s:darker_bg = ['#606060', 245]
+let s:darker_bg = ['#595959', 245]
 
 "{{{
 let s:normal_l1_fg = s:soft_dark
@@ -94,4 +94,4 @@ let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
 let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
 "}}}
 
-let g:lightline#colorscheme#deus_beta#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#deus_beta_dark#palette = lightline#colorscheme#flatten(s:p)

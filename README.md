@@ -8,11 +8,13 @@
 
 `let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/sainnhe/soft-era-vim) modified version
 
-![](screenshot/deus_beta.png)
+![](screenshot/deus_beta_light.png)
 
-![](screenshot/seoul256.png)
+`let g:lightline.colorscheme = 'deus_beta_light'` && [seoul256](https://github.com/junegunn/seoul256.vim)
 
-`let g:lightline.colorscheme = 'deus_beta'` && [neodark](https://github.com/KeitaNakamura/neodark.vim) and [seoul256](https://github.com/junegunn/seoul256.vim)
+![](screenshot/deus_beta_dark.png)
+
+`let g:lightline.colorscheme = 'deus_beta_dark'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
 
 # Installation
 
