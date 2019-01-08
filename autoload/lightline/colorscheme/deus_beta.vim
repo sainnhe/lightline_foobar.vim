@@ -94,4 +94,4 @@ let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
 let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
 "}}}
 
-let g:lightline#colorscheme#foobar#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#deus_beta#palette = lightline#colorscheme#flatten(s:p)

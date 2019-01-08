@@ -1,12 +1,12 @@
 # Demo
 
-![](screenshot/neodark.png)
+![](screenshot/deus_beta.png)
 
-*combined with [neodark](https://github.com/KeitaNakamura/neodark.vim)*
+`let g:lightline.colorscheme = 'deus_beta'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
 
-![with seoul256](screenshot/seoul256.png)
+![](screenshot/softera_alter.png)
 
-*combined with [seoul256](https://github.com/junegunn/seoul256.vim)*
+`let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/sainnhe/soft-era-vim) modified version
 
 # Installation
 
@@ -32,3 +32,7 @@ or if you want to apply it without reload:
 :call lightline#colorscheme()
 :call lightline#update()
 ```
+
+where `foobar` is the name of a color scheme.
+
+check [Demo](https://github.com/sainnhe/lightline_foobar.vim#demo) for all available color schemes.
