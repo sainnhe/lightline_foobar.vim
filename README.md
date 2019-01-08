@@ -1,16 +1,18 @@
 # Demo
 
-![](screenshot/deus_beta.png)
+![](screenshot/ayu.png)
 
-`let g:lightline.colorscheme = 'deus_beta'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
+`let g:lightline.colorscheme = 'ayu_light'` && [ayu](https://github.com/ayu-theme/ayu-vim)
 
 ![](screenshot/softera_alter.png)
 
 `let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/sainnhe/soft-era-vim) modified version
 
-![](screenshot/ayu.png)
+![](screenshot/deus_beta.png)
 
-`let g:lightline.colorscheme = 'ayu_light'` && [ayu](https://github.com/ayu-theme/ayu-vim)
+![](screenshot/seoul256.png)
+
+`let g:lightline.colorscheme = 'deus_beta'` && [neodark](https://github.com/KeitaNakamura/neodark.vim) and [seoul256](https://github.com/junegunn/seoul256.vim)
 
 # Installation
 
