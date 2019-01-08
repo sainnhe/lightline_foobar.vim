@@ -8,6 +8,10 @@
 
 `let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/sainnhe/soft-era-vim) modified version
 
+![](screenshot/ayu.png)
+
+`let g:lightline.colorscheme = 'ayu_light'` && [ayu](https://github.com/ayu-theme/ayu-vim)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
