@@ -16,6 +16,14 @@
 
 `let g:lightline.colorscheme = 'deus_beta_dark'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
 
+![](screenshot/tfw_light.png)
+
+`let g:lightline.colorscheme = 'tfw_light'` && [two-firewatch light](https://github.com/rakr/vim-two-firewatch)
+
+![](screenshot/tfw_dark.png)
+
+`let g:lightline.colorscheme = 'tfw_dark'` && [two-firewatch dark](https://github.com/rakr/vim-two-firewatch)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
