@@ -10,9 +10,10 @@ let s:visual_bg = [ '#c678dd', 255 ]
 let s:replace_bg = [ '#e06c75', 255 ]
 let s:warning_bg = [ '#e5c07b', 255 ]
 let s:error_bg = [ '#e06c75', 255 ]
+let s:dark = [ '#474747', 255 ]
 
 "{{{
-let s:normal_l1_fg = s:light_fg
+let s:normal_l1_fg = s:dark
 let s:normal_l1_bg = s:normal_bg
 let s:normal_l2_fg = s:light_fg
 let s:normal_l2_bg = s:base1
@@ -21,7 +22,7 @@ let s:normal_r1_bg = s:base0
 let s:normal_r2_fg = s:light_fg
 let s:normal_r2_bg = s:base1
 
-let s:insert_l1_fg = s:light_fg
+let s:insert_l1_fg = s:dark
 let s:insert_l1_bg = s:insert_bg
 let s:insert_l2_fg = s:light_fg
 let s:insert_l2_bg = s:base1
@@ -30,7 +31,7 @@ let s:insert_r1_bg = s:base0
 let s:insert_r2_fg = s:light_fg
 let s:insert_r2_bg = s:base1
 
-let s:visual_l1_fg = s:light_fg
+let s:visual_l1_fg = s:dark
 let s:visual_l1_bg = s:visual_bg
 let s:visual_l2_fg = s:light_fg
 let s:visual_l2_bg = s:base1
@@ -39,7 +40,7 @@ let s:visual_r1_bg = s:base0
 let s:visual_r2_fg = s:light_fg
 let s:visual_r2_bg = s:base1
 
-let s:inactive_l1_fg = s:light_fg
+let s:inactive_l1_fg = s:dark
 let s:inactive_l1_bg = s:base1
 let s:inactive_l2_fg = s:light_fg
 let s:inactive_l2_bg = s:base1
@@ -53,7 +54,7 @@ let s:tab_l_bg = s:base1
 let s:tab_sel_fg = s:light_fg
 let s:tab_sel_bg = s:base0
 
-let s:replace_l1_fg = s:light_fg
+let s:replace_l1_fg = s:dark
 let s:replace_l1_bg = s:replace_bg
 let s:replace_l2_fg = s:light_fg
 let s:replace_l2_bg = s:base1
