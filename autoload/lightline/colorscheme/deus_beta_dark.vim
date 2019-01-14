@@ -1,11 +1,11 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:soft_green = ['#98C379', 142]
-let s:soft_green_beta = ['#83a598', 108]
+let s:soft_green = ['#84B97C', 142]
+let s:soft_green_beta = ['#4BB1A7', 108]
 let s:soft_blue = ['#799cc3', 109]
-let s:soft_purple = ['#C678DD', 175]
-let s:soft_red = ['#fb4934', 167]
-let s:soft_yellow = ['#fabd2f', 214]
+let s:soft_purple = ['#B888E2', 175]
+let s:soft_red = ['#DC657D', 167]
+let s:soft_yellow = ['#E18254', 214]
 let s:soft_light = ['#d2d2d2', 229]
 let s:soft_dark = ['#404040', 243]
 let s:darker_bg = ['#595959', 245]
