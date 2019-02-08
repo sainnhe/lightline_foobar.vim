@@ -12,6 +12,10 @@
 
 `let g:lightline.colorscheme = 'srcery_alter'` && [vorange](https://github.com/Marfisc/vorange)
 
+![](screenshot/colored_dark.png)
+
+`let g:lightline.colorscheme = 'colored_dark'` && [cosme](https://github.com/beikome/cosme.vim)
+
 ![](screenshot/deus_beta_light.png)
 
 `let g:lightline.colorscheme = 'deus_beta_light'` && [seoul256](https://github.com/junegunn/seoul256.vim)
