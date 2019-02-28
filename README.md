@@ -38,11 +38,11 @@
 
 ![](screenshot/typewriter_light.png)
 
-`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter light](https://github.com/sainnhe/typewriter)
+`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter](https://github.com/sainnhe/typewriter) modified version
 
 ![](screenshot/typewriter_dark.png)
 
-`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter dark](https://github.com/sainnhe/typewriter)
+`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter](https://github.com/sainnhe/typewriter) modified version
 
 ![](screenshot/pencil_alter.png)
 
