@@ -16,6 +16,10 @@
 
 `let g:lightline.colorscheme = 'colored_dark'` && [cosme](https://github.com/beikome/cosme.vim)
 
+![](screenshot/carbonized_alter.png)
+
+`let g:lightline.colorscheme = 'carbonized_alter'` && [carbonized](https://github.com/nightsense/carbonized)
+
 ![](screenshot/deus_beta_light.png)
 
 `let g:lightline.colorscheme = 'deus_beta_light'` && [seoul256](https://github.com/junegunn/seoul256.vim)
