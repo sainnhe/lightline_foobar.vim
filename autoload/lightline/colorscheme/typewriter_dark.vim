@@ -1,11 +1,8 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:white1 = [ '#f0f0f0', 255 ]
-let s:white2 = [ '#eeeeee', 255 ]
-let s:white3 = [ '#d7d7d7', 255 ]
-let s:grey1 = [ '#a3a3a3', 255 ]
-let s:grey2 = [ '#909090', 255 ]
-let s:grey3 = [ '#878787', 255 ]
+let s:white1 = [ '#eeeeee', 255 ]
+let s:white2 = [ '#dfdfdf', 255 ]
+let s:white3 = [ '#d0d0d0', 255 ]
 let s:dark1 = [ '#4f4f4f', 255 ]
 let s:dark2 = [ '#424242', 255 ]
 let s:dark3 = [ '#3a3a3a', 255 ]
@@ -15,53 +12,53 @@ let s:red = [ '#f4a39a', 255 ]
 
 "{{{
 let s:normal_l1_fg = s:dark3
-let s:normal_l1_bg = s:white3
+let s:normal_l1_bg = s:white1
 let s:normal_l2_fg = s:white2
-let s:normal_l2_bg = s:grey3
+let s:normal_l2_bg = s:dark1
 let s:normal_r1_fg = s:dark3
-let s:normal_r1_bg = s:white3
+let s:normal_r1_bg = s:white1
 let s:normal_r2_fg = s:white2
-let s:normal_r2_bg = s:grey3
+let s:normal_r2_bg = s:dark1
 
-let s:insert_l1_fg = s:dark2
-let s:insert_l1_bg = s:white2
+let s:insert_l1_fg = s:dark3
+let s:insert_l1_bg = s:white1
 let s:insert_l2_fg = s:white2
-let s:insert_l2_bg = s:grey3
-let s:insert_r1_fg = s:dark2
-let s:insert_r1_bg = s:white2
+let s:insert_l2_bg = s:dark1
+let s:insert_r1_fg = s:dark3
+let s:insert_r1_bg = s:white1
 let s:insert_r2_fg = s:white2
-let s:insert_r2_bg = s:grey3
+let s:insert_r2_bg = s:dark1
 
-let s:visual_l1_fg = s:dark1
+let s:visual_l1_fg = s:dark3
 let s:visual_l1_bg = s:white1
 let s:visual_l2_fg = s:white2
-let s:visual_l2_bg = s:grey3
-let s:visual_r1_fg = s:dark1
+let s:visual_l2_bg = s:dark1
+let s:visual_r1_fg = s:dark3
 let s:visual_r1_bg = s:white1
 let s:visual_r2_fg = s:white2
-let s:visual_r2_bg = s:grey3
+let s:visual_r2_bg = s:dark1
 
 let s:inactive_l1_fg = s:dark3
-let s:inactive_l1_bg = s:grey1
+let s:inactive_l1_bg = s:white1
 let s:inactive_l2_fg = s:white2
-let s:inactive_l2_bg = s:grey3
+let s:inactive_l2_bg = s:dark1
 let s:inactive_r1_fg = s:dark3
-let s:inactive_r1_bg = s:grey1
+let s:inactive_r1_bg = s:white1
 let s:inactive_r2_fg = s:white2
-let s:inactive_r2_bg = s:grey3
+let s:inactive_r2_bg = s:dark1
 
-let s:tab_l_fg = s:dark3
-let s:tab_l_bg = s:white3
-let s:tab_sel_fg = s:white1
-let s:tab_sel_bg = s:grey3
+let s:tab_l_fg = s:white2
+let s:tab_l_bg = s:dark1
+let s:tab_sel_fg = s:dark1
+let s:tab_sel_bg = s:white1
 
 let s:replace_l1_fg = s:visual_l1_fg
 let s:replace_l1_bg = s:visual_l1_bg
 let s:replace_l2_fg = s:visual_l2_fg
 let s:replace_l2_bg = s:visual_l2_bg
 
-let s:middle_fg = s:white3
-let s:middle_bg = s:dark1
+let s:middle_fg = s:white1
+let s:middle_bg = s:dark3
 
 let s:warningfg = s:yellow
 let s:warningbg = s:dark1
