@@ -36,6 +36,10 @@
 
 `let g:lightline.colorscheme = 'tfw_dark'` && [two-firewatch dark](https://github.com/rakr/vim-two-firewatch)
 
+![](screenshot/pencil_alter.png)
+
+`let g:lightline.colorscheme = 'pencil_alter'` && [pencil](https://github.com/reedes/vim-colors-pencil)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
