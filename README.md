@@ -48,6 +48,10 @@
 
 `let g:lightline.colorscheme = 'pencil_alter'` && [pencil](https://github.com/reedes/vim-colors-pencil)
 
+![](screenshot/sacredforest.png)
+
+`let g:lightline.colorscheme = 'sacredforest'` && [sacredforest](https://github.com/KKPMW/sacredforest-vim)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
