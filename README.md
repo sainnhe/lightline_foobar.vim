@@ -28,6 +28,10 @@
 
 `let g:lightline.colorscheme = 'deus_beta_dark'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
 
+![](screenshot/neodark_alter.png)
+
+`let g:lightline.colorscheme = 'neodark_alter'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
+
 ![](screenshot/tfw_light.png)
 
 `let g:lightline.colorscheme = 'tfw_light'` && [two-firewatch light](https://github.com/rakr/vim-two-firewatch)
@@ -38,11 +42,11 @@
 
 ![](screenshot/typewriter_light.png)
 
-`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter](https://github.com/sainnhe/typewriter) modified version
+[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter](https://github.com/sainnhe/typewriter) modified version~~
 
 ![](screenshot/typewriter_dark.png)
 
-`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter](https://github.com/sainnhe/typewriter) modified version
+[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter](https://github.com/sainnhe/typewriter) modified version~~
 
 ![](screenshot/pencil_alter.png)
 
