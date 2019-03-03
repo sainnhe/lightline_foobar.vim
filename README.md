@@ -6,7 +6,7 @@
 
 ![](screenshot/softera_alter.png)
 
-`let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/sainnhe/soft-era-vim) modified version
+`let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/soft-aesthetic/soft-era-vim)
 
 ![](screenshot/srcery_alter.png)
 
@@ -42,11 +42,11 @@
 
 ![](screenshot/typewriter_light.png)
 
-[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter](https://github.com/sainnhe/typewriter) modified version~~
+[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_light'` && [typewriter](https://github.com/logico-dev/typewriter)~~
 
 ![](screenshot/typewriter_dark.png)
 
-[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter](https://github.com/sainnhe/typewriter) modified version~~
+[Merged](https://github.com/logico-dev/typewriter/commit/81dd8738cfff6d9ce01e6c42d14b0761acbba064) ~~`let g:lightline.colorscheme = 'typewriter_dark'` && [typewriter](https://github.com/logico-dev/typewriter)~~
 
 ![](screenshot/pencil_alter.png)
 
