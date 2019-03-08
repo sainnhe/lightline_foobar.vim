@@ -54,7 +54,7 @@
 
 ![](screenshot/sacredforest.png)
 
-`let g:lightline.colorscheme = 'sacredforest'` && [sacredforest](https://github.com/KKPMW/sacredforest-vim)
+[Merged and Adjusted](https://github.com/KKPMW/sacredforest-vim/pull/3) `let g:lightline.colorscheme = 'sacredforest_alter'` && [sacredforest](https://github.com/KKPMW/sacredforest-vim)
 
 # Installation
 
