@@ -24,6 +24,10 @@
 
 `let g:lightline.colorscheme = 'deus_beta_light'` && [seoul256](https://github.com/junegunn/seoul256.vim)
 
+![](screenshot/seoul256_alter.png)
+
+`let g:lightline.colorscheme = 'seoul256_alter'` && [seoul256](https://github.com/junegunn/seoul256.vim)
+
 ![](screenshot/deus_beta_dark.png)
 
 `let g:lightline.colorscheme = 'deus_beta_dark'` && [neodark](https://github.com/KeitaNakamura/neodark.vim)
