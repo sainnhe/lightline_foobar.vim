@@ -7,6 +7,7 @@ let s:dark = [ '#444444', 250 ]
 let s:darker = [ '#5f5f5f', 250 ]
 let s:orange = [ '#FF8700', 180 ]
 let s:red = [ '#F75341', 168 ]
+let s:white = [ '#eeeeee', 168 ]
 
 
 "{{{
@@ -56,7 +57,7 @@ let s:replace_l1_bg = s:green
 let s:replace_l2_fg = s:green
 let s:replace_l2_bg = s:darker
 
-let s:middle_fg = s:blue
+let s:middle_fg = s:white
 let s:middle_bg = s:dark
 
 let s:warningfg = s:dark
