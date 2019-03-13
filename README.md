@@ -60,6 +60,10 @@
 
 [Merged and Adjusted](https://github.com/KKPMW/sacredforest-vim/pull/3) `let g:lightline.colorscheme = 'sacredforest_alter'` && [sacredforest](https://github.com/KKPMW/sacredforest-vim)
 
+![](screenshot/moons.png)
+
+`let g:lightline.colorscheme = 'moons'` && [pink-moon](https://github.com/sts10/vim-pink-moon)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
