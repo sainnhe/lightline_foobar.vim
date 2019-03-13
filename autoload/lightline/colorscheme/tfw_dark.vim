@@ -4,9 +4,9 @@ let s:gray_light = [ '#C5D4DD', 255 ]
 let s:gray_darker = [ '#899BA6', 255 ]
 let s:gray_dark = [ '#363d4b', 255 ]
 let s:light_fg = [ '#f2ebe6', 255 ]
-let s:normal_bg = [ '#83AFE5', 255 ]
-let s:insert_bg = [ '#A8CE93', 255 ]
-let s:visual_bg = [ '#7FC1CA', 255 ]
+let s:normal_bg = [ '#61afef', 255 ]
+let s:insert_bg = [ '#98c379', 255 ]
+let s:visual_bg = [ '#c678dd', 255 ]
 let s:replace_bg = [ '#e06c75', 255 ]
 let s:warning_bg = [ '#e5c07b', 255 ]
 let s:error_bg = [ '#e06c75', 255 ]
@@ -48,10 +48,10 @@ let s:inactive_r1_bg = s:gray_light
 let s:inactive_r2_fg = s:light_fg
 let s:inactive_r2_bg = s:gray_darker
 
-let s:tab_l_fg = s:gray_dark
-let s:tab_l_bg = s:gray_light
-let s:tab_sel_fg = s:light_fg
-let s:tab_sel_bg = s:gray_darker
+let s:tab_sel_fg = s:gray_dark
+let s:tab_sel_bg = s:gray_light
+let s:tab_l_fg = s:light_fg
+let s:tab_l_bg = s:gray_darker
 
 let s:replace_l1_fg = s:light_fg
 let s:replace_l1_bg = s:replace_bg
