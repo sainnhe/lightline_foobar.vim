@@ -64,6 +64,10 @@
 
 `let g:lightline.colorscheme = 'moons'` && [pink-moon](https://github.com/sts10/vim-pink-moon)
 
+![](screenshot/palenight_alter.png)
+
+`let g:lightline.colorscheme = 'palenight_alter'` && [material palenight](https://github.com/kaicataldo/material.vim)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
