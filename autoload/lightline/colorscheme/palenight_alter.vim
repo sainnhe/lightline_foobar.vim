@@ -46,3 +46,23 @@ let s:p.inactive.right  = copy(s:p.inactive.left)
 let s:p.inactive.middle = [ [ s:p_black, s:p_menu_grey ] ]
 
 let g:lightline#colorscheme#palenight_alter#palette = lightline#colorscheme#flatten(s:p)
+
+function! PalenightLightline2Purple()
+    let g:lightline#colorscheme#palenight_alter#palette.tabline.right[0] = g:lightline#colorscheme#palenight_alter#palette.normal.left[1]
+    call lightline#init()
+    call lightline#colorscheme()
+    call lightline#update()
+endfunction
+
+function! PalenightLightline2Blue()
+    let g:lightline#colorscheme#palenight_alter#palette.tabline.right[0] = g:lightline#colorscheme#palenight_alter#palette.insert.left[1]
+    call lightline#init()
+    call lightline#colorscheme()
+    call lightline#update()
+endfunction
+
+augroup PalenightAu
+    autocmd!
+    autocmd InsertLeave * call PalenightLightline2Purple()
+    autocmd InsertEnter * call PalenightLightline2Blue()
+augroup END
