@@ -9,32 +9,34 @@
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
-let s:p.normal.left = [[["#303030", 236], ["#5fafd7", 173]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
-let s:p.normal.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.normal.right = [[["#303030", 236], ["#5fafd7", 250]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
+let s:p.normal.left = [[["#303030", 236], ["#5fafd7", 173]], [["#5fafd7", 250], ["#3f3f3f", 59]]]
+let s:p.normal.middle = [[["#5fafd7", 250], ["#303030", 237]]]
+let s:p.normal.right = [[["#303030", 236], ["#5fafd7", 250]], [["#5fafd7", 250], ["#3f3f3f", 59]]]
 let s:p.normal.error = [[["#303030", 236], ["#d75f87", 168]]]
 let s:p.normal.warning = [[["#303030", 236], ["#d7af5f", 179]]]
 
-let s:p.inactive.left = [[["#bcbcbc", 250], ["#5f5f5f", 59]], [["#bcbcbc", 250], ["#3a3a3a", 59]]]
-let s:p.inactive.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.inactive.right = [[["#bcbcbc", 250], ["#5f5f5f", 59]], [["#bcbcbc", 250], ["#3a3a3a", 59]]]
+let s:p.inactive.left = [[["#bcbcbc", 250], ["#3f3f3f", 59]], [["#bcbcbc", 250], ["#303030", 59]]]
+let s:p.inactive.middle = [[["#bcbcbc", 250], ["#303030", 237]]]
+let s:p.inactive.right = [[["#bcbcbc", 250], ["#3f3f3f", 59]], [["#bcbcbc", 250], ["#303030", 59]]]
 
-let s:p.insert.left = [[["#303030", 236], ["#87af87", 108]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
-let s:p.insert.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.insert.right = [[["#303030", 236], ["#87af87", 250]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
+let s:p.insert.left = [[["#303030", 236], ["#87af87", 108]], [["#87af87", 250], ["#3f3f3f", 59]]]
+let s:p.insert.middle = [[["#87af87", 250], ["#303030", 237]]]
+let s:p.insert.right = [[["#303030", 236], ["#87af87", 250]], [["#87af87", 250], ["#3f3f3f", 59]]]
 
-let s:p.replace.left = [[["#303030", 236], ["#d75f87", 168]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
-let s:p.replace.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.replace.right = [[["#303030", 236], ["#d75f87", 250]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
+let s:p.replace.left = [[["#303030", 236], ["#d75f87", 168]], [["#d75f87", 250], ["#3f3f3f", 59]]]
+let s:p.replace.middle = [[["#d75f87", 250], ["#303030", 237]]]
+let s:p.replace.right = [[["#303030", 236], ["#d75f87", 250]], [["#d75f87", 250], ["#3f3f3f", 59]]]
 
-let s:p.visual.left = [[["#303030", 236], ["#d75f87", 140]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
-let s:p.visual.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.visual.right = [[["#303030", 236], ["#d75f87", 250]], [["#bcbcbc", 250], ["#5f5f5f", 59]]]
+let s:p.visual.left = [[["#303030", 236], ["#d75f87", 140]], [["#d75f87", 250], ["#3f3f3f", 59]]]
+let s:p.visual.middle = [[["#d75f87", 250], ["#303030", 237]]]
+let s:p.visual.right = [[["#303030", 236], ["#d75f87", 250]], [["#d75f87", 250], ["#3f3f3f", 59]]]
 
-let s:p.tabline.left = [[["#bcbcbc", 250], ["#5f5f5f", 59]]]
-let s:p.tabline.tabsel = [[["#303030", 236], ["#d7875f", 173]]]
-let s:p.tabline.middle = [[["#bcbcbc", 250], ["#3a3a3a", 237]]]
-let s:p.tabline.right = [[["#303030", 236], ["#af87d7", 173]]]
+let s:p.tabline.left = [[["#af87d7", 250], ["#3f3f3f", 59]]]
+" let s:p.tabline.tabsel = [[["#303030", 236], ["#d7875f", 173]]]
+let s:p.tabline.tabsel = [[["#303030", 236], ["#af87d7", 173]]]
+let s:p.tabline.middle = [[["#5fafd7", 250], ["#303030", 237]]]
+" let s:p.tabline.right = [[["#303030", 236], ["#af87d7", 173]]]
+let s:p.tabline.right = [[["#5fafd7", 173], ["#3f3f3f", 59]]]
 
 let g:lightline#colorscheme#neodark_alter#palette = lightline#colorscheme#flatten(s:p)
 
