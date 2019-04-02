@@ -68,6 +68,10 @@
 
 `let g:lightline.colorscheme = 'palenight_alter'` && [material palenight](https://github.com/kaicataldo/material.vim)
 
+![](screenshot/oldbook_alter.png)
+
+`let g:lightline.colorscheme = 'oldbook_alter'` && [oldbook](https://github.com/KKPMW/oldbook-vim)
+
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
