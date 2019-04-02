@@ -86,12 +86,24 @@ let s:p.inactive.right = [ [ s:inactive_r1_fg, s:inactive_r1_bg ], [ s:inactive_
 let s:p.tabline.left = [ [ s:tab_l_fg, s:tab_l_bg] ]
 let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg ] ]
 let s:p.tabline.middle = [ [ s:middle_fg, s:middle_bg] ]
-let s:p.tabline.right = [ [ s:normal_r1_fg, s:normal_r1_bg ] ]
 
 let s:p.normal.error = [ [ s:errorfg, s:errorbg ] ]
 let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
 
 let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
+
+if exists('g:lightline_foobar_bold')
+    if g:lightline_foobar_bold == 1
+        let s:p.normal.left = [ [ s:normal_l1_fg, s:normal_l1_bg, 'bold' ], [ s:normal_l2_fg, s:normal_l2_bg ] ]
+        let s:p.normal.right = [ [ s:normal_r1_fg, s:normal_r1_bg, 'bold' ], [ s:normal_r2_fg, s:normal_r2_bg ] ]
+        let s:p.insert.left = [ [ s:insert_l1_fg, s:insert_l1_bg, 'bold' ], [ s:insert_l2_fg, s:insert_l2_bg ] ]
+        let s:p.insert.right = [ [ s:insert_r1_fg, s:insert_r1_bg, 'bold' ], [ s:insert_r2_fg, s:insert_r2_bg ] ]
+        let s:p.visual.left = [ [ s:visual_l1_fg, s:visual_l1_bg, 'bold' ], [ s:visual_l2_fg, s:visual_l2_bg ] ]
+        let s:p.visual.right = [ [ s:visual_r1_fg, s:visual_r1_bg, 'bold' ], [ s:visual_r2_fg, s:visual_r2_bg ] ]
+        let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg, 'bold' ] ]
+    endif
+endif
+
 "}}}
 
 let g:lightline#colorscheme#colored_dark#palette = lightline#colorscheme#flatten(s:p)

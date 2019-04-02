@@ -100,3 +100,11 @@ or if you want to apply it without reload:
 where `foobar` is the name of a color scheme.
 
 check [Demo](https://github.com/sainnhe/lightline_foobar.vim#demo) for all available color schemes.
+
+# Customize
+
+Some color scheme support bold, you can enable it by adding `let g:lightline_foobar_bold = 1` to your vimrc.
+
+# Note
+
+**All color schemes only support gui color.**
