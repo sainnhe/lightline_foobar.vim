@@ -5,28 +5,28 @@ let s:light = [ '#F3EFE7', 0]
 let s:golden_light = [ '#EAE1D2', 0]
 let s:golden = [ '#B6ad9a', 0 ]
 let s:blue = [ '#718ecd', 0 ]
-let s:dark = [ '#896724', 0 ]
+let s:brown = [ '#896724', 0 ]
 let s:orange = [ '#e5c07b', 0 ]
 let s:red = [ '#e06c75', 0 ]
 
 "{{{
-let s:normal_l1_fg = s:dark
+let s:normal_l1_fg = s:brown
 let s:normal_l1_bg = s:golden_light
-let s:normal_l2_fg = s:golden
+let s:normal_l2_fg = s:brown
 let s:normal_l2_bg = s:light
-let s:normal_r1_fg = s:dark
+let s:normal_r1_fg = s:brown
 let s:normal_r1_bg = s:golden_light
-let s:normal_r2_fg = s:golden
+let s:normal_r2_fg = s:brown
 let s:normal_r2_bg = s:light
 
-let s:middle_fg = s:golden
+let s:middle_fg = s:brown
 let s:middle_bg = s:white
 
-let s:tab_l_fg = s:golden
+let s:tab_l_fg = s:brown
 let s:tab_l_bg = s:light
-let s:tab_r_fg = s:golden
+let s:tab_r_fg = s:brown
 let s:tab_r_bg = s:light
-let s:tab_sel_fg = s:dark
+let s:tab_sel_fg = s:brown
 let s:tab_sel_bg = s:golden_light
 
 let s:warningfg = s:orange
@@ -36,38 +36,38 @@ let s:errorbg = s:light
 
 let s:insert_l1_fg = s:blue
 let s:insert_l1_bg = s:golden_light
-let s:insert_l2_fg = s:golden
+let s:insert_l2_fg = s:brown
 let s:insert_l2_bg = s:light
 let s:insert_r1_fg = s:blue
 let s:insert_r1_bg = s:golden_light
-let s:insert_r2_fg = s:golden
+let s:insert_r2_fg = s:brown
 let s:insert_r2_bg = s:light
 
 let s:visual_l1_fg = s:red
 let s:visual_l1_bg = s:golden_light
-let s:visual_l2_fg = s:golden
+let s:visual_l2_fg = s:brown
 let s:visual_l2_bg = s:light
 let s:visual_r1_fg = s:red
 let s:visual_r1_bg = s:golden_light
-let s:visual_r2_fg = s:golden
+let s:visual_r2_fg = s:brown
 let s:visual_r2_bg = s:light
 
 let s:replace_l1_fg = s:blue
 let s:replace_l1_bg = s:golden_light
-let s:replace_l2_fg = s:golden
+let s:replace_l2_fg = s:brown
 let s:replace_l2_bg = s:light
 let s:replace_r1_fg = s:blue
 let s:replace_r1_bg = s:golden_light
-let s:replace_r2_fg = s:golden
+let s:replace_r2_fg = s:brown
 let s:replace_r2_bg = s:light
 
-let s:inactive_l1_fg = s:golden
+let s:inactive_l1_fg = s:brown
 let s:inactive_l1_bg = s:light
-let s:inactive_l2_fg = s:golden
+let s:inactive_l2_fg = s:brown
 let s:inactive_l2_bg = s:light
-let s:inactive_r1_fg = s:golden
+let s:inactive_r1_fg = s:brown
 let s:inactive_r1_bg = s:light
-let s:inactive_r2_fg = s:golden
+let s:inactive_r2_fg = s:brown
 let s:inactive_r2_bg = s:light
 "}}}
 
