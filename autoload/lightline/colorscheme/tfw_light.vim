@@ -1,71 +1,74 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:base0 = [ '#6e6b5e', 255 ]
-let s:base1 = [ '#999580', 255 ]
-let s:base2 = [ '#e8e4cf', 255 ]
-let s:light_fg = [ '#e3ecff', 255 ]
-let s:normal_bg = [ '#61afef', 255 ]
-let s:insert_bg = [ '#98c379', 255 ]
-let s:visual_bg = [ '#c678dd', 255 ]
-let s:replace_bg = [ '#e06c75', 255 ]
-let s:warning_bg = [ '#e5c07b', 255 ]
-let s:error_bg = [ '#e06c75', 255 ]
-let s:dark = [ '#474747', 255 ]
+let s:white = [ '#FAF8F5', 0 ]
+let s:light = [ '#F3EFE7', 0]
+let s:golden_light = [ '#EAE1D2', 0]
+let s:golden = [ '#B6ad9a', 0 ]
+let s:blue = [ '#718ecd', 0 ]
+let s:dark = [ '#896724', 0 ]
+let s:orange = [ '#e5c07b', 0 ]
+let s:red = [ '#e06c75', 0 ]
 
 "{{{
 let s:normal_l1_fg = s:dark
-let s:normal_l1_bg = s:normal_bg
-let s:normal_l2_fg = s:light_fg
-let s:normal_l2_bg = s:base1
-let s:normal_r1_fg = s:light_fg
-let s:normal_r1_bg = s:base0
-let s:normal_r2_fg = s:light_fg
-let s:normal_r2_bg = s:base1
+let s:normal_l1_bg = s:golden_light
+let s:normal_l2_fg = s:golden
+let s:normal_l2_bg = s:light
+let s:normal_r1_fg = s:dark
+let s:normal_r1_bg = s:golden_light
+let s:normal_r2_fg = s:golden
+let s:normal_r2_bg = s:light
 
-let s:insert_l1_fg = s:dark
-let s:insert_l1_bg = s:insert_bg
-let s:insert_l2_fg = s:light_fg
-let s:insert_l2_bg = s:base1
-let s:insert_r1_fg = s:light_fg
-let s:insert_r1_bg = s:base0
-let s:insert_r2_fg = s:light_fg
-let s:insert_r2_bg = s:base1
+let s:middle_fg = s:golden
+let s:middle_bg = s:white
 
-let s:visual_l1_fg = s:dark
-let s:visual_l1_bg = s:visual_bg
-let s:visual_l2_fg = s:light_fg
-let s:visual_l2_bg = s:base1
-let s:visual_r1_fg = s:light_fg
-let s:visual_r1_bg = s:base0
-let s:visual_r2_fg = s:light_fg
-let s:visual_r2_bg = s:base1
+let s:tab_l_fg = s:golden
+let s:tab_l_bg = s:light
+let s:tab_r_fg = s:golden
+let s:tab_r_bg = s:light
+let s:tab_sel_fg = s:dark
+let s:tab_sel_bg = s:golden_light
 
-let s:inactive_l1_fg = s:dark
-let s:inactive_l1_bg = s:base1
-let s:inactive_l2_fg = s:light_fg
-let s:inactive_l2_bg = s:base1
-let s:inactive_r1_fg = s:light_fg
-let s:inactive_r1_bg = s:base0
-let s:inactive_r2_fg = s:light_fg
-let s:inactive_r2_bg = s:base1
+let s:warningfg = s:orange
+let s:warningbg = s:light
+let s:errorfg = s:red
+let s:errorbg = s:light
 
-let s:tab_l_fg = s:light_fg
-let s:tab_l_bg = s:base1
-let s:tab_sel_fg = s:light_fg
-let s:tab_sel_bg = s:base0
+let s:insert_l1_fg = s:blue
+let s:insert_l1_bg = s:golden_light
+let s:insert_l2_fg = s:golden
+let s:insert_l2_bg = s:light
+let s:insert_r1_fg = s:dark
+let s:insert_r1_bg = s:golden_light
+let s:insert_r2_fg = s:golden
+let s:insert_r2_bg = s:light
 
-let s:replace_l1_fg = s:dark
-let s:replace_l1_bg = s:replace_bg
-let s:replace_l2_fg = s:light_fg
-let s:replace_l2_bg = s:base1
+let s:visual_l1_fg = s:red
+let s:visual_l1_bg = s:golden_light
+let s:visual_l2_fg = s:golden
+let s:visual_l2_bg = s:light
+let s:visual_r1_fg = s:dark
+let s:visual_r1_bg = s:golden_light
+let s:visual_r2_fg = s:golden
+let s:visual_r2_bg = s:light
 
-let s:middle_fg = s:base0
-let s:middle_bg = s:base2
+let s:replace_l1_fg = s:orange
+let s:replace_l1_bg = s:golden_light
+let s:replace_l2_fg = s:golden
+let s:replace_l2_bg = s:light
+let s:replace_r1_fg = s:dark
+let s:replace_r1_bg = s:golden_light
+let s:replace_r2_fg = s:golden
+let s:replace_r2_bg = s:light
 
-let s:warningfg = s:light_fg
-let s:warningbg = s:warning_bg
-let s:errorfg = s:light_fg
-let s:errorbg = s:error_bg
+let s:inactive_l1_fg = s:golden
+let s:inactive_l1_bg = s:light
+let s:inactive_l2_fg = s:golden
+let s:inactive_l2_bg = s:light
+let s:inactive_r1_fg = s:golden
+let s:inactive_r1_bg = s:light
+let s:inactive_r2_fg = s:golden
+let s:inactive_r2_bg = s:light
 "}}}
 
 "{{{
@@ -86,6 +89,7 @@ let s:p.inactive.middle = [ [ s:middle_fg, s:middle_bg ] ]
 let s:p.inactive.right = [ [ s:inactive_r1_fg, s:inactive_r1_bg ], [ s:inactive_r2_fg, s:inactive_r2_bg ] ]
 
 let s:p.tabline.left = [ [ s:tab_l_fg, s:tab_l_bg] ]
+let s:p.tabline.right = [ [ s:tab_r_fg, s:tab_r_bg] ]
 let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg ] ]
 let s:p.tabline.middle = [ [ s:middle_fg, s:middle_bg] ]
 
