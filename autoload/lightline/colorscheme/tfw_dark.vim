@@ -19,7 +19,7 @@ let s:normal_r1_bg = s:grey
 let s:normal_r2_fg = s:light
 let s:normal_r2_bg = s:darker
 
-let s:middle_fg = s:light_blue
+let s:middle_fg = s:light
 let s:middle_bg = s:dark
 
 let s:tab_l_fg = s:light
