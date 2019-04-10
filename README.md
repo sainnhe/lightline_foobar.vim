@@ -72,6 +72,10 @@
 
 `let g:lightline.colorscheme = 'oldbook_alter'` && [oldbook](https://github.com/KKPMW/oldbook-vim)
 
+![](screenshot/dark_plus_alter.png)
+
+`let g:lightline.colorscheme = 'dark_plus_alter'` && [dark_plus](https://github.com/dunstontc/vim-vscode-theme)
+
 **Note: all color schemes only support gui color**
 
 # Installation
