@@ -1,6 +1,6 @@
 " =============================================================================
 " URL: https://github.com/sainnhe/lightline_foobar.vim/
-" Filename: autoload/lightline/colorscheme/dark_plus_alter.vim
+" Filename: autoload/lightline/colorscheme/ayu_light.vim
 " Author: Sainnhepark
 " Email: sainnhe@gmail.com
 " License: MIT License & Anti-996 License
