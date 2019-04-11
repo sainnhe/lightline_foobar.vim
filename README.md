@@ -1,6 +1,6 @@
 # Demo
 
-![](screenshot/ayu.png)
+![](screenshot/ayu_light.png)
 
 `let g:lightline.colorscheme = 'ayu_light'` && [ayu](https://github.com/ayu-theme/ayu-vim)
 
