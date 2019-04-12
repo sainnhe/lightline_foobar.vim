@@ -9,8 +9,8 @@
 "{{{Palette
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:white = [ '#fafafa', 255 ]
-let s:white_middle_bg = [ '#f5f5f5', 255 ]
+let s:mirage = [ '#fafafa', 255 ]
+let s:mirage_middle_bg = [ '#f5f5f5', 255 ]
 let s:gray = [ '#e9e9e9', 250 ]
 let s:gray_darker = [ '#999999', 250 ]
 let s:gray_inactive_bg = [ '#d0d0d0', 240 ]
@@ -26,70 +26,70 @@ let s:tab_l_fg = s:gray_darker
 let s:tab_l_bg = s:gray
 let s:tab_r_fg = s:gray_darker
 let s:tab_r_bg = s:gray
-let s:tab_sel_fg = s:white
+let s:tab_sel_fg = s:mirage
 let s:tab_sel_bg = s:green
 let s:tab_middle_fg = s:gray_darker
-let s:tab_middle_bg = s:white_middle_bg
+let s:tab_middle_bg = s:mirage_middle_bg
 
 let s:warningfg = s:yellow
-let s:warningbg = s:white
+let s:warningbg = s:mirage
 let s:errorfg = s:red
-let s:errorbg = s:white
+let s:errorbg = s:mirage
 
-let s:normal_l1_fg = s:white
+let s:normal_l1_fg = s:mirage
 let s:normal_l1_bg = s:green
 let s:normal_l2_fg = s:gray_darker
 let s:normal_l2_bg = s:gray
-let s:normal_r1_fg = s:white
+let s:normal_r1_fg = s:mirage
 let s:normal_r1_bg = s:green
 let s:normal_r2_fg = s:gray_darker
 let s:normal_r2_bg = s:gray
 let s:normal_middle_fg = s:gray_darker
-let s:normal_middle_bg = s:white_middle_bg
+let s:normal_middle_bg = s:mirage_middle_bg
 
-let s:insert_l1_fg = s:white
+let s:insert_l1_fg = s:mirage
 let s:insert_l1_bg = s:blue
 let s:insert_l2_fg = s:gray_darker
 let s:insert_l2_bg = s:gray
-let s:insert_r1_fg = s:white
+let s:insert_r1_fg = s:mirage
 let s:insert_r1_bg = s:blue
 let s:insert_r2_fg = s:gray_darker
 let s:insert_r2_bg = s:gray
 let s:insert_middle_fg = s:gray_darker
-let s:insert_middle_bg = s:white_middle_bg
+let s:insert_middle_bg = s:mirage_middle_bg
 
-let s:visual_l1_fg = s:white
+let s:visual_l1_fg = s:mirage
 let s:visual_l1_bg = s:purple
 let s:visual_l2_fg = s:gray_darker
 let s:visual_l2_bg = s:gray
-let s:visual_r1_fg = s:white
+let s:visual_r1_fg = s:mirage
 let s:visual_r1_bg = s:purple
 let s:visual_r2_fg = s:gray_darker
 let s:visual_r2_bg = s:gray
 let s:visual_middle_fg = s:gray_darker
-let s:visual_middle_bg = s:white_middle_bg
+let s:visual_middle_bg = s:mirage_middle_bg
 
-let s:replace_l1_fg = s:white
+let s:replace_l1_fg = s:mirage
 let s:replace_l1_bg = s:red
 let s:replace_l2_fg = s:gray_darker
 let s:replace_l2_bg = s:gray
-let s:replace_r1_fg = s:white
+let s:replace_r1_fg = s:mirage
 let s:replace_r1_bg = s:red
 let s:replace_r2_fg = s:gray_darker
 let s:replace_r2_bg = s:gray
 let s:replace_middle_fg = s:gray_darker
-let s:replace_middle_bg = s:white_middle_bg
+let s:replace_middle_bg = s:mirage_middle_bg
 
-let s:inactive_l1_fg = s:white
+let s:inactive_l1_fg = s:mirage
 let s:inactive_l1_bg = s:gray_inactive_bg
 let s:inactive_l2_fg = s:gray_darker
 let s:inactive_l2_bg = s:gray
-let s:inactive_r1_fg = s:white
+let s:inactive_r1_fg = s:mirage
 let s:inactive_r1_bg = s:gray_inactive_bg
 let s:inactive_r2_fg = s:gray_darker
 let s:inactive_r2_bg = s:gray
 let s:inactive_middle_fg = s:gray_darker
-let s:inactive_middle_bg = s:white_middle_bg
+let s:inactive_middle_bg = s:mirage_middle_bg
 "}}}
 
 "{{{Implementation
