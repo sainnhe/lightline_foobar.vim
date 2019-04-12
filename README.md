@@ -114,3 +114,7 @@ check [Demo](https://github.com/sainnhe/lightline_foobar.vim#demo) for all avail
 # Customize
 
 Some color scheme support bold, you can enable it by adding `let g:lightline_foobar_bold = 1` to your vimrc.
+
+# Contributors
+
+[leoatchina](https://github.com/leoatchina): ayu_mirage
