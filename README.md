@@ -4,6 +4,10 @@
 
 `let g:lightline.colorscheme = 'ayu_light'` && [ayu](https://github.com/ayu-theme/ayu-vim)
 
+![](screenshot/ayu_mirage.png)
+
+`let g:lightline.colorscheme = 'ayu_mirage'` && [ayu](https://github.com/ayu-theme/ayu-vim)
+
 ![](screenshot/softera_alter.png)
 
 `let g:lightline.colorscheme = 'softera_alter'` && [soft-era](https://github.com/soft-aesthetic/soft-era-vim)
