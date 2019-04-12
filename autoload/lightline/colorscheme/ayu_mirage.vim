@@ -9,10 +9,10 @@
 "{{{Palette
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:mirage = [ '#fafafa', 255 ]
-let s:mirage_middle_bg = [ '#f5f5f5', 255 ]
-let s:gray = [ '#e9e9e9', 250 ]
-let s:gray_darker = [ '#999999', 250 ]
+let s:mirage = [ '#fefefe', 255 ]
+let s:mirage_middle_bg = [ '#202732', 255 ]
+let s:gray = [ '#555555', 250 ]
+let s:gray_darker = [ '#aaaaaa', 250 ]
 let s:gray_inactive_bg = [ '#d0d0d0', 240 ]
 let s:green = [ '#98c379', 76 ]
 let s:blue = [ '#61afef', 75 ]
@@ -137,4 +137,4 @@ if exists('g:lightline_foobar_bold')
 endif
 "}}}
 
-let g:lightline#colorscheme#ayu_mirage = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#ayu_mirage#palette = lightline#colorscheme#flatten(s:p)
