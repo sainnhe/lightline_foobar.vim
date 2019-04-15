@@ -1,7 +1,13 @@
-" File: lightline-pencil.vim
-" Description: lightline.vim theme for pencil colorscheme
-" Author: yami-beta
-" Source: https://github.com/yami-beta/lightline-pencil.vim
+" =============================================================================
+" URL: https://github.com/sainnhe/lightline_foobar.vim/
+" Filename: autoload/lightline/colorscheme/pencil_alter.vim
+" Author: Sainnhepark
+" Email: sainnhe@gmail.com
+" License: MIT License & Anti-996 License
+" =============================================================================
+
+"{{{Palette
+let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 let s:black      = [ '#424242', 8 ]
 let s:white      = [ '#e5e6e6', 254 ]
@@ -10,26 +16,122 @@ let s:blue       = [ '#008EC4', 253 ]
 let s:red       = [ '#E32791', 1 ]
 let s:green       = [ '#10A778', 253 ]
 let s:orange       = [ '#D75F5F', 1 ]
+"}}}
+
+"{{{Definition
+let s:tab_l_fg = s:black
+let s:tab_l_bg = s:gray
+let s:tab_r_fg = s:white
+let s:tab_r_bg = s:black
+let s:tab_sel_fg = s:white
+let s:tab_sel_bg = s:black
+let s:tab_middle_fg = s:black
+let s:tab_middle_bg = s:white
+
+let s:warningfg = s:white
+let s:warningbg = s:orange
+let s:errorfg = s:white
+let s:errorbg = s:red
+
+let s:normal_l1_fg = s:white
+let s:normal_l1_bg = s:black
+let s:normal_l2_fg = s:black
+let s:normal_l2_bg = s:gray
+let s:normal_r1_fg = s:gray
+let s:normal_r1_bg = s:black
+let s:normal_r2_fg = s:black
+let s:normal_r2_bg = s:gray
+let s:normal_middle_fg = s:black
+let s:normal_middle_bg = s:white
+
+let s:insert_l1_fg = s:white
+let s:insert_l1_bg = s:blue
+let s:insert_l2_fg = s:black
+let s:insert_l2_bg = s:gray
+let s:insert_r1_fg = s:white
+let s:insert_r1_bg = s:blue
+let s:insert_r2_fg = s:black
+let s:insert_r2_bg = s:gray
+let s:insert_middle_fg = s:black
+let s:insert_middle_bg = s:white
+
+let s:visual_l1_fg = s:white
+let s:visual_l1_bg = s:red
+let s:visual_l2_fg = s:black
+let s:visual_l2_bg = s:gray
+let s:visual_r1_fg = s:white
+let s:visual_r1_bg = s:red
+let s:visual_r2_fg = s:black
+let s:visual_r2_bg = s:gray
+let s:visual_middle_fg = s:black
+let s:visual_middle_bg = s:white
+
+let s:replace_l1_fg = s:white
+let s:replace_l1_bg = s:green
+let s:replace_l2_fg = s:black
+let s:replace_l2_bg = s:gray
+let s:replace_r1_fg = s:white
+let s:replace_r1_bg = s:green
+let s:replace_r2_fg = s:black
+let s:replace_r2_bg = s:gray
+let s:replace_middle_fg = s:black
+let s:replace_middle_bg = s:white
+
+let s:inactive_l1_fg = s:black
+let s:inactive_l1_bg = s:gray
+let s:inactive_l2_fg = s:black
+let s:inactive_l2_bg = s:gray
+let s:inactive_r1_fg = s:gray
+let s:inactive_r1_bg = s:black
+let s:inactive_r2_fg = s:black
+let s:inactive_r2_bg = s:gray
+let s:inactive_middle_fg = s:black
+let s:inactive_middle_bg = s:white
+"}}}
+
+"{{{Implementation
+let s:p.normal.left = [ [ s:normal_l1_fg, s:normal_l1_bg ], [ s:normal_l2_fg, s:normal_l2_bg ] ]
+let s:p.normal.middle = [ [ s:normal_middle_fg, s:normal_middle_bg ] ]
+let s:p.normal.right = [ [ s:normal_r1_fg, s:normal_r1_bg ], [ s:normal_r2_fg, s:normal_r2_bg ] ]
+
+let s:p.insert.left = [ [ s:insert_l1_fg, s:insert_l1_bg ], [ s:insert_l2_fg, s:insert_l2_bg ] ]
+let s:p.insert.middle = [ [ s:insert_middle_fg, s:insert_middle_bg ] ]
+let s:p.insert.right = [ [ s:insert_r1_fg, s:insert_r1_bg ], [ s:insert_r2_fg, s:insert_r2_bg ] ]
+
+let s:p.visual.left = [ [ s:visual_l1_fg, s:visual_l1_bg ], [ s:visual_l2_fg, s:visual_l2_bg ] ]
+let s:p.visual.middle = [ [ s:visual_middle_fg, s:visual_middle_bg ] ]
+let s:p.visual.right = [ [ s:visual_r1_fg, s:visual_r1_bg ], [ s:visual_r2_fg, s:visual_r2_bg ] ]
+
+let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
+let s:p.replace.middle = [ [ s:replace_middle_fg, s:replace_middle_bg ] ]
+let s:p.replace.right = [ [ s:replace_r1_fg, s:replace_r1_bg ], [ s:replace_r2_fg, s:replace_r2_bg ] ]
+
+let s:p.inactive.left = [ [ s:inactive_l1_fg, s:inactive_l1_bg ], [ s:inactive_l2_fg, s:inactive_l2_bg ] ]
+let s:p.inactive.middle = [ [ s:inactive_middle_fg, s:inactive_middle_bg ] ]
+let s:p.inactive.right = [ [ s:inactive_r1_fg, s:inactive_r1_bg ], [ s:inactive_r2_fg, s:inactive_r2_bg ] ]
+
+let s:p.tabline.left = [ [ s:tab_l_fg, s:tab_l_bg] ]
+let s:p.tabline.right = [ [ s:tab_r_fg, s:tab_r_bg] ]
+let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg ] ]
+let s:p.tabline.middle = [ [ s:tab_middle_fg, s:tab_middle_bg] ]
+
+let s:p.normal.error = [ [ s:errorfg, s:errorbg ] ]
+let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
 
 
-let s:p                 = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
-let s:p.normal.left     = [ [ s:white, s:black ], [ s:black, s:gray] ]
-let s:p.normal.right    = [ [ s:gray, s:black ], [ s:black, s:gray ] ]
-let s:p.inactive.right  = [ [ s:black, s:gray ], [ s:gray, s:black ] ]
-let s:p.inactive.left   = [ [ s:gray, s:black ], [ s:gray, s:black ] ]
-let s:p.insert.left     = [ [ s:white, s:blue ], [ s:black, s:gray ] ]
-let s:p.insert.right     = [ [ s:white, s:blue ], [ s:black, s:gray ] ]
-let s:p.replace.left    = [ [ s:white, s:green ], [ s:black, s:gray ] ]
-let s:p.replace.right    = [ [ s:white, s:green ], [ s:black, s:gray ] ]
-let s:p.visual.left     = [ [ s:white, s:red ], [ s:black, s:gray ] ]
-let s:p.visual.right     = [ [ s:white, s:red ], [ s:black, s:gray ] ]
-let s:p.normal.middle   = [ [ s:black, s:white ] ]
-let s:p.inactive.middle = [ [ s:black, s:gray ] ]
-let s:p.tabline.left    = [ [ s:black, s:gray ] ]
-let s:p.tabline.tabsel  = [ [ s:white, s:black ] ]
-let s:p.tabline.middle  = [ [ s:black, s:white ] ]
-let s:p.tabline.right   = copy(s:p.tabline.tabsel)
-let s:p.normal.error    = [ [ s:white, s:red ] ]
-let s:p.normal.warning  = [ [ s:white, s:orange ] ]
+if exists('g:lightline_foobar_bold')
+    if g:lightline_foobar_bold == 1
+        let s:p.normal.left = [ [ s:normal_l1_fg, s:normal_l1_bg, 'bold' ], [ s:normal_l2_fg, s:normal_l2_bg ] ]
+        let s:p.normal.right = [ [ s:normal_r1_fg, s:normal_r1_bg, 'bold' ], [ s:normal_r2_fg, s:normal_r2_bg ] ]
+        let s:p.insert.left = [ [ s:insert_l1_fg, s:insert_l1_bg, 'bold' ], [ s:insert_l2_fg, s:insert_l2_bg ] ]
+        let s:p.insert.right = [ [ s:insert_r1_fg, s:insert_r1_bg, 'bold' ], [ s:insert_r2_fg, s:insert_r2_bg ] ]
+        let s:p.visual.left = [ [ s:visual_l1_fg, s:visual_l1_bg, 'bold' ], [ s:visual_l2_fg, s:visual_l2_bg ] ]
+        let s:p.visual.right = [ [ s:visual_r1_fg, s:visual_r1_bg, 'bold' ], [ s:visual_r2_fg, s:visual_r2_bg ] ]
+        let s:p.replace.left = [ [ s:replace_l1_fg, s:replace_l1_bg, 'bold' ], [ s:replace_l2_fg, s:replace_l2_bg ] ]
+        let s:p.replace.right = [ [ s:replace_r1_fg, s:replace_r1_bg, 'bold' ], [ s:replace_r2_fg, s:replace_r2_bg ] ]
+        let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg, 'bold' ] ]
+    endif
+endif
+"}}}
 
 let g:lightline#colorscheme#pencil_alter#palette = lightline#colorscheme#flatten(s:p)
