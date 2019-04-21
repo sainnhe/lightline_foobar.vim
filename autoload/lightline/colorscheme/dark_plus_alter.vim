@@ -23,8 +23,8 @@ let s:orange = [ '#ce9178', 0 ]
 "{{{Definition
 let s:tab_l_fg = s:magenta
 let s:tab_l_bg = s:darker2
-let s:tab_r_fg = s:dark
-let s:tab_r_bg = s:magenta
+let s:tab_r_fg = s:magenta
+let s:tab_r_bg = s:darker2
 let s:tab_sel_fg = s:dark
 let s:tab_sel_bg = s:magenta
 let s:tab_middle_fg = s:light
@@ -40,10 +40,10 @@ let s:normal_l1_bg = s:magenta
 let s:normal_l2_fg = s:magenta
 let s:normal_l2_bg = s:darker
 let s:normal_r1_fg = s:dark
-let s:normal_r1_bg = s:magenta
-let s:normal_r2_fg = s:magenta
+let s:normal_r1_bg = s:green
+let s:normal_r2_fg = s:green
 let s:normal_r2_bg = s:darker
-let s:normal_middle_fg = s:light
+let s:normal_middle_fg = s:green
 let s:normal_middle_bg = s:dark
 
 let s:insert_l1_fg = s:dark
@@ -51,10 +51,10 @@ let s:insert_l1_bg = s:blue
 let s:insert_l2_fg = s:blue
 let s:insert_l2_bg = s:darker
 let s:insert_r1_fg = s:dark
-let s:insert_r1_bg = s:blue
-let s:insert_r2_fg = s:blue
+let s:insert_r1_bg = s:magenta
+let s:insert_r2_fg = s:magenta
 let s:insert_r2_bg = s:darker
-let s:insert_middle_fg = s:light
+let s:insert_middle_fg = s:magenta
 let s:insert_middle_bg = s:dark
 
 let s:visual_l1_fg = s:dark
@@ -65,7 +65,7 @@ let s:visual_r1_fg = s:dark
 let s:visual_r1_bg = s:red
 let s:visual_r2_fg = s:red
 let s:visual_r2_bg = s:darker
-let s:visual_middle_fg = s:light
+let s:visual_middle_fg = s:red
 let s:visual_middle_bg = s:dark
 
 let s:replace_l1_fg = s:dark
@@ -76,7 +76,7 @@ let s:replace_r1_fg = s:dark
 let s:replace_r1_bg = s:orange
 let s:replace_r2_fg = s:orange
 let s:replace_r2_bg = s:darker
-let s:replace_middle_fg = s:light
+let s:replace_middle_fg = s:orange
 let s:replace_middle_bg = s:dark
 
 let s:inactive_l1_fg = s:light
@@ -137,3 +137,23 @@ endif
 "}}}
 
 let g:lightline#colorscheme#dark_plus_alter#palette = lightline#colorscheme#flatten(s:p)
+
+function! DarkPlusLightline2Magenta()
+    let g:lightline#colorscheme#dark_plus_alter#palette.tabline.right[0] = g:lightline#colorscheme#dark_plus_alter#palette.normal.left[1]
+    call lightline#init()
+    call lightline#colorscheme()
+    call lightline#update()
+endfunction
+
+function! DarkPlusLightline2Blue()
+    let g:lightline#colorscheme#dark_plus_alter#palette.tabline.right[0] = g:lightline#colorscheme#dark_plus_alter#palette.insert.left[1]
+    call lightline#init()
+    call lightline#colorscheme()
+    call lightline#update()
+endfunction
+
+augroup DarkPlusAu
+    autocmd!
+    autocmd InsertLeave * call DarkPlusLightline2Magenta()
+    autocmd InsertEnter * call DarkPlusLightline2Blue()
+augroup END
