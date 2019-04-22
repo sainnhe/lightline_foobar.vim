@@ -148,6 +148,7 @@ let g:lightline#colorscheme#palenight_alter#palette = lightline#colorscheme#flat
 
 function! PalenightLightline2Purple()
     let g:lightline#colorscheme#palenight_alter#palette.tabline.right[0] = g:lightline#colorscheme#palenight_alter#palette.normal.left[1]
+    let g:lightline#colorscheme#palenight_alter#palette.tabline.left[0] = g:lightline#colorscheme#palenight_alter#palette.normal.left[1]
     call lightline#init()
     call lightline#colorscheme()
     call lightline#update()
@@ -155,6 +156,7 @@ endfunction
 
 function! PalenightLightline2Blue()
     let g:lightline#colorscheme#palenight_alter#palette.tabline.right[0] = g:lightline#colorscheme#palenight_alter#palette.insert.left[1]
+    let g:lightline#colorscheme#palenight_alter#palette.tabline.left[0] = g:lightline#colorscheme#palenight_alter#palette.insert.left[1]
     call lightline#init()
     call lightline#colorscheme()
     call lightline#update()
