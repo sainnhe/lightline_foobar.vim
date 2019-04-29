@@ -23,7 +23,7 @@ let s:soft = [ '#ffc8c8', 0 ]
 "}}}
 
 "{{{Definition
-let s:tab_l_fg = s:pink
+let s:tab_l_fg = s:violet
 let s:tab_l_bg = s:lighter
 let s:tab_r_fg = s:pink
 let s:tab_r_bg = s:lighter
@@ -39,10 +39,10 @@ let s:errorbg = s:lighter
 
 let s:normal_l1_fg = s:dark
 let s:normal_l1_bg = s:violet
-let s:normal_l2_fg = s:pink
+let s:normal_l2_fg = s:violet
 let s:normal_l2_bg = s:lighter
 let s:normal_r1_fg = s:dark
-let s:normal_r1_bg = s:violet
+let s:normal_r1_bg = s:pink
 let s:normal_r2_fg = s:pink
 let s:normal_r2_bg = s:lighter
 let s:normal_middle_fg = s:soft
@@ -81,15 +81,15 @@ let s:replace_r2_bg = s:lighter
 let s:replace_middle_fg = s:orange
 let s:replace_middle_bg = s:light
 
-let s:inactive_l1_fg = s:pink
+let s:inactive_l1_fg = s:violet
 let s:inactive_l1_bg = s:lighter
-let s:inactive_l2_fg = s:pink
+let s:inactive_l2_fg = s:violet
 let s:inactive_l2_bg = s:lighter
 let s:inactive_r1_fg = s:pink
 let s:inactive_r1_bg = s:lighter
 let s:inactive_r2_fg = s:pink
 let s:inactive_r2_bg = s:lighter
-let s:inactive_middle_fg = s:pink
+let s:inactive_middle_fg = s:soft
 let s:inactive_middle_bg = s:light
 "}}}
 
