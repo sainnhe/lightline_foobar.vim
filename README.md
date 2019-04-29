@@ -80,6 +80,10 @@
 
 `let g:lightline.colorscheme = 'dark_plus_alter'` && [dark_plus](https://github.com/dunstontc/vim-vscode-theme)
 
+![](screenshot/space_vim_light.png)
+
+`let g:lightline.colorscheme = 'space_vim_light'` && [space-vim](https://github.com/liuchengxu/space-vim-theme)
+
 **Note: all color schemes only support gui color**
 
 # Installation
