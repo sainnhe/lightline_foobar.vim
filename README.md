@@ -84,6 +84,10 @@
 
 `let g:lightline.colorscheme = 'space_vim_light'` && [space-vim](https://github.com/liuchengxu/space-vim-theme)
 
+![](screenshot/space_vim_dark.png)
+
+`let g:lightline.colorscheme = 'space_vim_dark'` && [space-vim](https://github.com/liuchengxu/space-vim-theme)
+
 **Note: all color schemes only support gui color**
 
 # Installation
