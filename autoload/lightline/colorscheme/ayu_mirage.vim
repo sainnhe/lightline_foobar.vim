@@ -9,8 +9,8 @@
 "{{{Palette
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:mirage = [ '#fefefe', 255 ]
-let s:mirage_middle_bg = [ '#202732', 255 ]
+let s:mirage = [ '#212732', 255 ]
+let s:mirage_middle_bg = [ '#343434', 255 ]
 let s:gray = [ '#555555', 250 ]
 let s:gray_darker = [ '#aaaaaa', 250 ]
 let s:gray_inactive_bg = [ '#d0d0d0', 240 ]
