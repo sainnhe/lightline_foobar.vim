@@ -88,6 +88,10 @@
 
 `let g:lightline.colorscheme = 'space_vim_dark'` && [space-vim](https://github.com/liuchengxu/space-vim-theme)
 
+![](screenshot/simplifysimplify_light_alter.png)
+
+`let g:lightline.colorscheme = 'simplifysimplify_light_alter'` && [simplifysimplify](https://github.com/nightsense/simplifysimplify)
+
 **Note: all color schemes only support gui color**
 
 # Installation
