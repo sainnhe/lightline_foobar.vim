@@ -92,6 +92,10 @@
 
 `let g:lightline.colorscheme = 'simplifysimplify_light_alter'` && [simplifysimplify](https://github.com/nightsense/simplifysimplify)
 
+![](screenshot/cake_alter.png)
+
+`let g:lightline.colorscheme = 'cake_alter'` && [cake](https://github.com/GGalizzi/cake-vim)
+
 **Note: all color schemes only support gui color**
 
 # Installation
