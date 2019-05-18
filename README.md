@@ -96,6 +96,10 @@
 
 `let g:lightline.colorscheme = 'cake_alter'` && [cake](https://github.com/GGalizzi/cake-vim)
 
+![](screenshot/hypsteria_alter.png)
+
+`let g:lightline.colorscheme = 'hypsteria_alter'` && [hypsteria](https://github.com/BrainDeath0/Hypsteria)
+
 **Note: all color schemes only support gui color**
 
 # Installation
