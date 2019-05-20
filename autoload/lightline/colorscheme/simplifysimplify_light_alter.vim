@@ -10,8 +10,8 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 let s:white = [ '#fafafa', 255 ]
-let s:white_middle_bg = [ '#f5f5f5', 255 ]
-let s:gray = [ '#e9e9e9', 250 ]
+let s:white_middle_bg = [ '#f6f8fa', 255 ]
+let s:gray = [ '#dde2e7', 254 ]
 let s:gray_darker = [ '#999999', 250 ]
 let s:gray_inactive_bg = [ '#d0d0d0', 240 ]
 let s:green = [ '#219e21', 2 ]
