@@ -104,6 +104,10 @@
 
 `let g:lightline.colorscheme = 'wwdc16_alter'` && [wwdc16](https://github.com/lifepillar/vim-wwdc16-theme)
 
+![](screenshot/wwdc17_alter.png)
+
+`let g:lightline.colorscheme = 'wwdc17_alter'` && [wwdc17](https://github.com/lifepillar/vim-wwdc17-theme)
+
 **Note: all color schemes only support gui color**
 
 # Installation
