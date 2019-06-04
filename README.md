@@ -100,6 +100,10 @@
 
 `let g:lightline.colorscheme = 'hypsteria_alter'` && [hypsteria](https://github.com/BrainDeath0/Hypsteria)
 
+![](screenshot/wwdc16_alter.png)
+
+`let g:lightline.colorscheme = 'wwdc16_alter'` && [wwdc16](https://github.com/lifepillar/vim-wwdc16-theme)
+
 **Note: all color schemes only support gui color**
 
 # Installation
