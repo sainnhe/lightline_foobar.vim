@@ -38,57 +38,57 @@ let s:errorbg = s:darker
 let s:normal_l1_fg = s:dark
 let s:normal_l1_bg = s:golden
 let s:normal_l2_fg = s:golden
-let s:normal_l2_bg = s:gray
+let s:normal_l2_bg = s:darker
 let s:normal_r1_fg = s:dark
 let s:normal_r1_bg = s:golden
 let s:normal_r2_fg = s:golden
-let s:normal_r2_bg = s:gray
+let s:normal_r2_bg = s:darker
 let s:normal_middle_fg = s:golden
-let s:normal_middle_bg = s:darker
+let s:normal_middle_bg = s:dark
 
 let s:insert_l1_fg = s:dark
 let s:insert_l1_bg = s:green
 let s:insert_l2_fg = s:golden
-let s:insert_l2_bg = s:gray
+let s:insert_l2_bg = s:darker
 let s:insert_r1_fg = s:dark
 let s:insert_r1_bg = s:golden
 let s:insert_r2_fg = s:golden
-let s:insert_r2_bg = s:gray
+let s:insert_r2_bg = s:darker
 let s:insert_middle_fg = s:golden
-let s:insert_middle_bg = s:darker
+let s:insert_middle_bg = s:dark
 
 let s:visual_l1_fg = s:dark
 let s:visual_l1_bg = s:blue
 let s:visual_l2_fg = s:golden
-let s:visual_l2_bg = s:gray
+let s:visual_l2_bg = s:darker
 let s:visual_r1_fg = s:dark
 let s:visual_r1_bg = s:golden
 let s:visual_r2_fg = s:golden
-let s:visual_r2_bg = s:gray
+let s:visual_r2_bg = s:darker
 let s:visual_middle_fg = s:golden
-let s:visual_middle_bg = s:darker
+let s:visual_middle_bg = s:dark
 
 let s:replace_l1_fg = s:dark
 let s:replace_l1_bg = s:light
 let s:replace_l2_fg = s:golden
-let s:replace_l2_bg = s:gray
+let s:replace_l2_bg = s:darker
 let s:replace_r1_fg = s:dark
 let s:replace_r1_bg = s:golden
 let s:replace_r2_fg = s:golden
-let s:replace_r2_bg = s:gray
+let s:replace_r2_bg = s:darker
 let s:replace_middle_fg = s:golden
-let s:replace_middle_bg = s:darker
+let s:replace_middle_bg = s:dark
 
 let s:inactive_l1_fg = s:golden
-let s:inactive_l1_bg = s:gray
+let s:inactive_l1_bg = s:darker
 let s:inactive_l2_fg = s:golden
-let s:inactive_l2_bg = s:gray
+let s:inactive_l2_bg = s:darker
 let s:inactive_r1_fg = s:golden
-let s:inactive_r1_bg = s:gray
+let s:inactive_r1_bg = s:darker
 let s:inactive_r2_fg = s:golden
-let s:inactive_r2_bg = s:gray
+let s:inactive_r2_bg = s:darker
 let s:inactive_middle_fg = s:golden
-let s:inactive_middle_bg = s:darker
+let s:inactive_middle_bg = s:dark
 
 "}}}
 
