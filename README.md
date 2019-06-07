@@ -108,8 +108,6 @@
 
 `let g:lightline.colorscheme = 'wwdc17_alter'` && [wwdc17](https://github.com/lifepillar/vim-wwdc17-theme)
 
-**Note: all color schemes only support gui color**
-
 # Installation
 
 for [vim-plug](https://github.com/junegunn/vim-plug):
@@ -143,6 +141,17 @@ check [Demo](https://github.com/sainnhe/lightline_foobar.vim#demo) for all avail
 
 Some color scheme support bold, you can enable it by adding `let g:lightline_foobar_bold = 1` to your vimrc.
 
-# Contributors
+# FAQ
+
+- **Q:** What's your lightline configuration?
+- **A:** Check this [gist](https://gist.github.com/sainnhe/b8240bc047313fd6185bb8052df5a8fb)
+
+# Contribution
+
+The original purpose of this repo was to solve my own needs, many of the lightline color schemes are just in line with my own tastes. So, may be there are some color schemes you are not satisfied with, or maybe you want a new color scheme that fits a certain color scheme.
+
+I've created a template for writing color scheme which can be found in most of the color scheme files (located in `autoload/lightline/colorscheme/*`), it should be very easy to write a new one. If you have any ideas, feel free to fork it, any PR is welcome.
+
+## Thanks to
 
 [leoatchina](https://github.com/leoatchina): ayu_mirage
